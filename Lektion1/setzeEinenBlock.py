@@ -1,4 +1,7 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-mc.setBlock(0, 0, 0, 12)
+x = 30
+y = 33
+z = 16
+mc.setBlock(x, y, z, 12)
