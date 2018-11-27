@@ -1,6 +1,6 @@
-wert1 = 1
+wert1 = 2
 wert2 = 2
-
+# < , > , == , != , <= , >=
 if wert1 > wert2:
     print(str(wert1))
 elif wert1 < wert2:

@@ -3,5 +3,5 @@ for i in range(0, 10):
 
 zaehler = 0
 while zaehler < 10:
-    print(str(i))
+    print(str(zaehler))
     zaehler += 1

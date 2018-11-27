@@ -7,7 +7,7 @@ class Bruch(Ex):
 		self.Zaehler = int(zaehler)
 		self.Nenner = int(nenner)
 		if self.Nenner == 0:
-			raise ZeroDivisonError
+			raise ZeroDivisionError
 
 	def multiplizieren(self, other):
 		self.Zaehler *= other.Zaehler
